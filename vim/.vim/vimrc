@@ -1,0 +1,70 @@
+"           ██
+"          ░░
+"  ██    ██ ██ ██████████  ██████  █████
+" ░██   ░██░██░░██░░██░░██░░██░░█ ██░░░██
+" ░░██ ░██ ░██ ░██ ░██ ░██ ░██ ░ ░██  ░░
+"  ░░████  ░██ ░██ ░██ ░██ ░██   ░██   ██
+"   ░░██   ░██ ███ ░██ ░██░███   ░░█████
+"    ░░    ░░ ░░░  ░░  ░░ ░░░     ░░░░░
+"
+"  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+" ░▓ author      ▓ TrueBers
+" ░▓ code        ▓ https://github.com/TrueBers/dotfiles
+" ░▓ inspired by ▓ http://code.xero.nu/dotfiles
+" ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+" ░░░░░░░░░░░░░░░
+
+" must have
+set nocompatible
+
+" security
+set modelines=0
+set nomodeline
+
+" Russian keymap on C-^
+set keymap=russian-jcukenwin
+
+" paste without auto indentation
+set paste
+
+" hide buffers, not close them
+set hidden
+
+" searching
+set hlsearch
+set incsearch
+
+" case insensitive search
+set ignorecase
+set smartcase
+set infercase
+
+" ╻┏┓╻╺┳╸┏━╸┏━┓┏━╸┏━┓┏━╸┏━╸
+" ┃┃┗┫ ┃ ┣╸ ┣┳┛┣╸ ┣━┫┃  ┣╸ 
+" ╹╹ ╹ ╹ ┗━╸╹┗╸╹  ╹ ╹┗━╸┗━╸
+
+" default syntax highlighting and colors
+"syntax on
+
+" Solarized syntax highlighting and colors
+syntax enable
+"set background=dark
+"let g:solarized_termcolors=256
+"colorscheme solarized
+
+" show line numbers
+set number
+
+" highlight current line
+"set cursorline
+
+" no line wrapping
+set nowrap
+
+" ┏━┓╻  ╻ ╻┏━╸╻┏┓╻   ┏━┓╺┳╸╻ ╻┏━╸┏━╸
+" ┣━┛┃  ┃ ┃┃╺┓┃┃┗┫   ┗━┓ ┃ ┃ ┃┣╸ ┣╸ 
+" ╹  ┗━╸┗━┛┗━┛╹╹ ╹   ┗━┛ ╹ ┗━┛╹  ╹  
+
+if 1
+  filetype plugin indent on
+endif
