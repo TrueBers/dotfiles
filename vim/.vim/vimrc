@@ -22,10 +22,10 @@ set modelines=0
 set nomodeline
 
 " Russian keymap on C-^
-set keymap=russian-jcukenwin
+"set keymap=russian-jcukenwin
 
 " Spellcheck
-set spell
+"set spell
 set spelllang=en,ru
 
 " paste without auto indentation

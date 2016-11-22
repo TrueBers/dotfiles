@@ -16,3 +16,6 @@ timedatectl set-ntp 1
 
 # Pkgfile updates
 systemctl enable pkgfile-update.timer
+
+# Enable weekly TRIM
+systemctl enable fstrim.timer
